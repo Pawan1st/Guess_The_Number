@@ -1,5 +1,5 @@
 'use strict';
-// Random Number Genrator (1 to 20)
+// Random Number Genrator (1 to 100)
 let generatedNumber = Math.trunc(Math.random()*100)+1
 
 // Setting Score
