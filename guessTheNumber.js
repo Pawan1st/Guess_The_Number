@@ -27,6 +27,7 @@ function result(){
                 // Updating high score
                 if(score>highScore){
                     document.querySelector('.highscore').textContent = score;
+                    highScore = score;
                 }
             }
             // hints
