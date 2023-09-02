@@ -45,7 +45,6 @@ function result(){
     //  Restarting Game
     function again(){
         generatedNumber = Math.trunc(Math.random()*100)+1
-        console.log(generatedNumber)
         displayMessage('Start guessing...');
         document.querySelector('.score').textContent = score = 20;
         document.querySelector('.number').textContent = '?';
