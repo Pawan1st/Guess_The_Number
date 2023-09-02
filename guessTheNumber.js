@@ -26,7 +26,7 @@ function result(){
                 displayMessage('Correct Number!!')
                 // Updating high score
                 if(score>highScore){
-                    document.querySelector('.highscore').textContent = score;
+                    document.querySelector('.highscore').textContent = highScore;
                     highScore = score;
                 }
             }
