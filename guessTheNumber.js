@@ -58,3 +58,19 @@ function result(){
 
     // Play Again Button
     document.querySelector('.again').addEventListener('click',again)
+
+    // Check Button (Enter)
+    document.addEventListener('keydown',function(a){
+        if(a.key=='Enter')
+        result();
+        else if(a.key == 'Escape')
+        again();
+    })
+    
+    // Play Again Button (Escape)
+    document.addEventListener('keydown',function(b){
+        if(b.key=='ArrowDown')
+        document.querySelector('.guess').value--
+        else if(b.key=='ArrowUp')
+        document.querySelector('.guess').value++
+    })
